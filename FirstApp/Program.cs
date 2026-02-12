@@ -42,6 +42,14 @@
         //    return a / b;
         //}
         #endregion
+
+        #region CalculateCircle
+        static void CalculateCircle(double radius, out double area, out double circumference)
+        {
+            area = Math.PI * radius * radius;
+            circumference = 2 * Math.PI * radius;
+        } 
+        #endregion
         static void Main(string[] args)
         {
             #region Part01
@@ -110,6 +118,8 @@
 
 
             #region Part03
+
+            // Q.1
             //Console.Write("Enter first number: ");
             //double num1 = double.Parse(Console.ReadLine());
 
@@ -145,6 +155,19 @@
             //}
 
             //Console.WriteLine("Result = " + result); 
+
+            //----------------------------------------------------
+
+            // Q.2
+            //Console.Write("Enter radius: ");
+            //double r = double.Parse(Console.ReadLine());
+
+            //double area, circ;
+
+            //CalculateCircle(r, out area, out circ);
+
+            //Console.WriteLine("Area = " + area);
+            //Console.WriteLine("Circumference = " + circ);
             #endregion
         }
     }
