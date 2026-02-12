@@ -15,6 +15,33 @@
         //    Friday
         //} 
         #endregion
+
+        #region StaticMethod
+        //static double Add(double a, double b)
+        //{
+        //    return a + b;
+        //}
+
+        //static double Subtract(double a, double b)
+        //{
+        //    return a - b;
+        //}
+
+        //static double Multiply(double a, double b)
+        //{
+        //    return a * b;
+        //}
+
+        //static double Divide(double a, double b)
+        //{
+        //    if (b == 0)
+        //    {
+        //        Console.WriteLine("Cannot divide by zero!");
+        //        return 0;
+        //    }
+        //    return a / b;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Part01
@@ -79,6 +106,45 @@
             //{
             //    Console.Write(arr[i] + " ");
             //} 
+            #endregion
+
+
+            #region Part03
+            //Console.Write("Enter first number: ");
+            //double num1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //double num2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter operation (+, -, *, /): ");
+            //char op = Console.ReadLine()[0];
+
+            //double result = 0;
+
+            //switch (op)
+            //{
+            //    case '+':
+            //        result = Add(num1, num2);
+            //        break;
+
+            //    case '-':
+            //        result = Subtract(num1, num2);
+            //        break;
+
+            //    case '*':
+            //        result = Multiply(num1, num2);
+            //        break;
+
+            //    case '/':
+            //        result = Divide(num1, num2);
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Invalid operation");
+            //        return;
+            //}
+
+            //Console.WriteLine("Result = " + result); 
             #endregion
         }
     }
