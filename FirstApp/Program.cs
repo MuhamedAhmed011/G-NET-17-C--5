@@ -40,6 +40,46 @@
             //}
             //Console.ReadLine(); 
             #endregion
+
+
+            #region Part02
+            //Console.Write("Enter array size: ");
+            //int size = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[size];
+
+            //int sum = 0;
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write("Enter element [" + i + "]: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int max = arr[0];
+            //int min = arr[0];
+            //for (int i = 0; i < size; i++)
+            //{
+            //    sum = sum + arr[i];
+
+            //    if (arr[i] > max)
+            //        max = arr[i];
+
+            //    if (arr[i] < min)
+            //        min = arr[i];
+            //}
+
+            //double avg = (double)sum / size;
+
+            //Console.WriteLine("Sum = " + sum);
+            //Console.WriteLine("Average = " + avg);
+            //Console.WriteLine("Max = " + max);
+            //Console.WriteLine("Min = " + min);
+            //Console.Write("Reverse = ");
+            //for (int i = size - 1; i >= 0; i--)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //} 
+            #endregion
         }
     }
 }
